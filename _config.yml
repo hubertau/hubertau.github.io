@@ -36,9 +36,9 @@ menu:
     url: /blog/
 
 
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+# # Dependencies
+# markdown:         redcarpet
+# highlighter:      pygments
 
 # Collections
 collections:
