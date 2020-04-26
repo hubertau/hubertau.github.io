@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Hubert Au
-email: your-email@example.com
+email: hubert.au@oii.ox.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
   Hi! I'm Hubert.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -27,9 +27,28 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: HubertDAu
 github_username:  hubertau
 
+# theme
+theme: jekyll-theme-hydejack
+
+# sidebar menu
+menu:
+  - title: Blog
+    url: /blog/
+
+
 # Dependencies
 markdown:         redcarpet
 highlighter:      pygments
+
+# Collections
+collections:
+  featured_categories:
+    permalink:    /:name/
+    output:       true
+  featured_tags:
+    permalink:    /tag-:name/
+    output:       true
+
 
 # Permalinks
 permalink:        pretty
