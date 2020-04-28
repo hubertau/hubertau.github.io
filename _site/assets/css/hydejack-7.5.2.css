@@ -411,8 +411,6 @@ main > footer > p { margin-bottom: 0; }
 @media screen and (min-width: 64em) { main > footer { left: 0; } }
 @media print { main > footer { display: none; } }
 
-@media screen { a.external::after, a[href*="//"]:not(.no-mark-external):not(.no-mark)::after, a.no-push-state:not(.no-mark-external):not(.no-mark)::after { content: "\00A0\ea7e"; font-family: "icomoon" !important; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; font-size: smaller; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; opacity: 0.33; transition: opacity 500ms; }
-  a.external:hover::after, a.external:focus::after, a[href*="//"]:not(.no-mark-external):not(.no-mark):hover::after, a[href*="//"]:not(.no-mark-external):not(.no-mark):focus::after, a.no-push-state:not(.no-mark-external):not(.no-mark):hover::after, a.no-push-state:not(.no-mark-external):not(.no-mark):focus::after { opacity: 1; transition: opacity 100ms; } }
 @media screen { pre, table:not(.highlight), .katex-display, .break-layout { position: relative; width: calc(100% + 2rem); } }
 @media screen and (min-width: 38rem) { pre, table:not(.highlight), .katex-display, .break-layout { width: calc(100% + 50vw - 17rem); } }
 @media screen and (min-width: 54em) { pre, table:not(.highlight), .katex-display, .break-layout { width: calc(100% + 50vw - 19rem); } }

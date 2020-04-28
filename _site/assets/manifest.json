@@ -1,10 +1,10 @@
 {
-  
+  "lang": "en",
   "name": "Hubert Au",
   "short_name": "Hubert Au",
-  "description": "Hi! I’m Hubert.",
+  "description": "Hi! I’m Hubert",
   "start_url": "/?utm_source=homescreen",
-  "theme_color": "#4fb1ba",
+  "theme_color": "rgb(25,55,71)",
   "background_color": "#fff",
   "orientation": "portrait",
   "display": "standalone",
