@@ -42,8 +42,8 @@ logo:                  /assets/icons/icon.png
 author:
   name:                Hubert Au
   email:               hubert.au@oii.ox.ac.uk
-  # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+  Used by `jekyll-seo-tag`:
+  twitter:             HubertDAu
 
 # Add links to the sidebar.
 menu:
